@@ -1,4 +1,4 @@
-# Zettelkasten Tonne for Park, Sanghun. (san-ghun)
+# Zettelkasten Tonne for Park, Sanghun. 박상훈 (san-ghun)
 
 > And, some high thoughts.
 
@@ -13,11 +13,9 @@ The **Zettelkasten** is a note-taking method developed by sociologist Niklas Luh
 
 ## Please be aware.
 
-A Zettelkasten is inherently unpolished and often contains information that may have been relevant, true, or written in a moment of passion at one point, but no longer reflects my current views or may be inaccurate. This is not a "blog," "website," or any form of publication. Failing to understand this when reading any Zettelkasten may lead to misunderstandings and potential harm. **Never** cite anything from this or any other Zettelkasten. Instead, use it to inspire your own research and draw your own conclusions.
+A Zettelkasten is inherently unpolished and often contains information that may have been relevant, true, or written in a moment of passion at one point, but no longer reflects my current views or may be inaccurate. This is not a "blog", "website" or any form of publication. Failing to understand this when reading any Zettelkasten may lead to misunderstandings and potential harm. **Never** cite anything from this or any other Zettelkasten. Instead, use it to inspire your own research and draw your own conclusions.
 
 **NOTICE:** This is not "open" content. Copying any material from this Zettelkasten for purposes outside of what is protected under American "fair use" copyright law is illegal. Violators will be prosecuted. This is to protect against misrepresentation of my current views or positions based on this content. I am serious about enforcing these terms and will take legal action if necessary.
 
 ---
 [zet](https://github.com/san-ghun/zet/) © 2024 by [Sanghun Park](https://github.com/san-ghun/) is licensed under CC BY-NC-ND 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/4.0/
-
-[zet](https://github.com/san-ghun/zet) © 2024 by [Sanghun Park](https://github.com/san-ghun/) is licensed under [CC BY-NC-ND 4.0 ![](https://chooser-beta.creativecommons.org/img/cc-logo.f0ab4ebe.svg)![](https://chooser-beta.creativecommons.org/img/cc-by.21b728bb.svg)![](https://chooser-beta.creativecommons.org/img/cc-nc.218f18fc.svg)![](https://chooser-beta.creativecommons.org/img/cc-nd.de89fdeb.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1)
