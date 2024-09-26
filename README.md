@@ -1,11 +1,11 @@
-# Zettelkasten Tonne for Park, Sanghun. 박상훈 (san-ghun)
+# Zettelkasten Tonne for Park, Sanghun. 박 상훈 (san-ghun)
 
 > And, some high thoughts.
 
-inspired from [zet](https://github.com/rwxrob/zet) by [rwxrob](https://x.com/rwxrob).
-
 This is where I dump my thought with some knowledge as it happens, all my zettels ("slips" or notes) about almost anything and everything. The idea is rather simple, but also powerful. 
 Warning: Just because something is here doesn't mean it is accurate, even if I still believe it.
+
+inspired from [zet](https://github.com/rwxrob/zet) by [rwxrob](https://x.com/rwxrob).
 
 ## What is the Zettelkasten?
 
