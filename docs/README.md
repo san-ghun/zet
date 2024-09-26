@@ -1,8 +1,8 @@
 Hi, I am Sanghun. This is my personal **Zettelkasten** Tonne page. It contains things on quite any subjects I want to write about. The latest additions and changes are [indexed]().
 
 And here are two categories of zettel for my Tonne.
-- [Zettels](/zettels) - for normal zettel
-- [High Thoughts](/highthoughts) - some high thoughts (, or maybe those high thoughts)
+- [Zettels](/zet/zettels) - for normal zettel
+- [High Thoughts](/zet/highthoughts) - some high thoughts (, or maybe those high thoughts)
 
 A Zettelkasten is inherently unpolished and often contains information that may have been relevant, true, or written in a moment of passion at one point, but no longer reflects my current views or may be inaccurate. This is not a "blog," "website," or any form of publication. Failing to understand this when reading any Zettelkasten may lead to misunderstandings and potential harm. **Never** cite anything from this or any other Zettelkasten. Instead, use it to inspire your own research and draw your own conclusions.
 
