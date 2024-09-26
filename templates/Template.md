@@ -4,4 +4,5 @@ note
 
 ---
 created: {{date}} {{time}}
+
 modified: {{date}} {{time}}
