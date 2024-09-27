@@ -1,8 +1,11 @@
+---
+created: ""
+modified: ""
+tags:
+---
 # title
 
 note
 
 ---
-created: {{date}} {{time}}
-
-modified: {{date}} {{time}}
+- created: {{date}} {{time}}
