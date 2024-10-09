@@ -1,5 +1,8 @@
 import os
+import time
 import datetime
+import subprocess
+import platform
 import re
 from pathlib import Path
 
@@ -9,7 +12,22 @@ def get_markdown_files(directory):
 
 def get_creation_date(file_path):
     """Get the creation date of the file."""
-    return datetime.datetime.fromtimestamp(os.path.getctime(file_path))
+    # return datetime.datetime.fromtimestamp(os.path.getctime(file_path))
+    system_platform = platform.system()
+    
+    if system_platform == 'Darwin':  # macOS
+        # Use stat to get the creation time on macOS
+        result = subprocess.run(['stat', '-f%B', file_path], stdout=subprocess.PIPE, text=True)
+        creation_time = int(result.stdout.strip())
+    elif system_platform == 'Linux':  # Linux
+        # Use stat to get the birth time (creation time) on Linux, if supported
+        result = subprocess.run(['stat', '-c%W', file_path], stdout=subprocess.PIPE, text=True)
+        creation_time = int(result.stdout.strip())
+        if creation_time == 0:
+            raise OSError("File system does not support birth time (creation time).")
+    else:
+        raise OSError(f"Unsupported platform: {system_platform}")
+    return creation_time
 
 def get_title(file_path):
     """Extract the title from the markdown file."""
@@ -40,7 +58,7 @@ def write_markdown_list(file_info, output_file):
         f.write("# Markdown Files List\n\n")
         for file in sorted(file_info, key=lambda x: x['created'], reverse=True):
             f.write(f"- [{file['title']}]({file['path']})\n")
-            f.write(f"  - Created: {file['created'].strftime('%Y-%m-%d %H:%M:%S')}\n")
+            f.write(f"  - Created: {time.ctime(file['created'])}\n")
 
 def main():
     directories = ["./docs/highthoughts/", "./docs/zettels/"]  # Add your directories here
