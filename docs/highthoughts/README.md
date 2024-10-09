@@ -1,12 +1,3 @@
----
-id: README
-created: 2024-09-26T21:23:32
-modified: 2024-10-09T12:53:07
-title: What is a high thought?
-aliases: [What is a high thought?, highthoughts]
-tags: [readme]
-links:
----
 # What is a high thought?
 
 A **high thought** typically refers to a deep, abstract, or profound idea or insight. It often involves contemplation on complex, philosophical, or spiritual topics, pushing beyond everyday concerns to explore broader or deeper meanings about life, existence, morality, or the universe. High thoughts can inspire creativity, reflection, and a sense of awe.
