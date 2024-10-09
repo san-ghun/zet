@@ -1,3 +1,34 @@
+"""
+dexer.py
+
+Dexer: A markdown file list generator for Zettelkasten
+
+This script reads markdown files in a directory and generates a markdown file
+listing all the files in the directory with their creation date and title.
+The output file can be used as a Zettelkasten index.
+
+Usage:
+    python dexer.py
+    or
+    python3 dexer.py
+
+Requirements:
+    Python 3
+    (no extra dependencies)
+
+Configuration:
+    Add the following JSON object to config.json:
+        {
+            "directories": ["./docs/highthoughts/", "./docs/zettels/"],
+            "output_file": "./docs/dex/index.md"
+        }
+
+    Set the directories to the paths of the directories containing the markdown files.
+    Set the output_file to the path of the output markdown file.
+
+Author: [San-ghun](https://github.com/san-ghun)
+License: MIT
+"""
 import os
 import time
 import subprocess
