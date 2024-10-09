@@ -1,3 +1,4 @@
+import os
 import time
 import subprocess
 import platform
@@ -44,18 +45,32 @@ def collect_file_info(directories):
         files = get_markdown_files(directory)
         for file in files:
             all_files.append({
-                'path': file,
+                'path': file.as_posix(),
                 'created': get_creation_date(file),
                 'title': get_title(file)
             })
     return all_files
+
+def parse_path(path: str) -> str:
+    """Parse the path to remove the 'docs/' prefix and '.md' extension."""
+    # Remove the 'docs/' prefix
+    path = path.replace('docs/', '')
+    
+    # Remove '.md' extension
+    path = path.replace('.md', '')
+    
+    # Ensure directory paths end with a slash
+    if os.path.basename(path) == "README":
+        path = os.path.dirname(path) + "/"
+    
+    return path
 
 def write_markdown_list(file_info, output_file):
     """Write the collected file information into a markdown file."""
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write("# Index\n\n")
         for file in sorted(file_info, key=lambda x: x['created'], reverse=True):
-            f.write(f"- [{file['title']}]({file['path']})\n")
+            f.write(f"- [{file['title']}]({parse_path(file['path'])})\n")
             f.write(f"  - Created: {time.ctime(file['created'])}\n")
 
 def load_config(config_file):
