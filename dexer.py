@@ -70,7 +70,7 @@ def write_markdown_list(file_info, output_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write("# Index\n\n")
         for file in sorted(file_info, key=lambda x: x['created'], reverse=True):
-            f.write(f"- [{file['title']}]({parse_path(file['path'])})\n")
+            f.write(f"- [{file['title']}](https://san-ghun.github.io/zet/{parse_path(file['path'])})\n")
             f.write(f"  - Created: {time.ctime(file['created'])}\n")
 
 def load_config(config_file):
