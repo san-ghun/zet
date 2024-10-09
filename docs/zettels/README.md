@@ -1,3 +1,12 @@
+---
+id: README
+created: 2024-09-26T18:09:28
+modified: 2024-10-09T12:52:55
+title: What is the Zettelkasten?
+aliases: [What is the Zettelkasten?, zettels]
+tags: [readme]
+links:
+---
 # What is the Zettelkasten?
 
 The **Zettelkasten** (German for "slip box" or "note box") is a method of note-taking and personal knowledge management developed by the German sociologist **Niklas Luhmann**. It involves creating small, individual notes (zettels) that are interconnected through a system of references, much like a hypertext.

@@ -19,7 +19,5 @@ note
 - [[]]
 - [[]]
 
-
-##### remarks
-
+---
 - created: {{date}} {{time}}
