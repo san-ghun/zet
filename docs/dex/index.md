@@ -1,4 +1,4 @@
-# Markdown Files List
+# Index
 
 - [What kind of things are in a Note?](docs/highthoughts/0.md)
   - Created: Mon Oct  7 20:02:10 2024

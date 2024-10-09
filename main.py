@@ -1,9 +1,8 @@
-import os
 import time
-import datetime
 import subprocess
 import platform
 import re
+import json
 from pathlib import Path
 
 def get_markdown_files(directory):
@@ -12,7 +11,6 @@ def get_markdown_files(directory):
 
 def get_creation_date(file_path):
     """Get the creation date of the file."""
-    # return datetime.datetime.fromtimestamp(os.path.getctime(file_path))
     system_platform = platform.system()
     
     if system_platform == 'Darwin':  # macOS
@@ -55,14 +53,20 @@ def collect_file_info(directories):
 def write_markdown_list(file_info, output_file):
     """Write the collected file information into a markdown file."""
     with open(output_file, 'w', encoding='utf-8') as f:
-        f.write("# Markdown Files List\n\n")
+        f.write("# Index\n\n")
         for file in sorted(file_info, key=lambda x: x['created'], reverse=True):
             f.write(f"- [{file['title']}]({file['path']})\n")
             f.write(f"  - Created: {time.ctime(file['created'])}\n")
 
+def load_config(config_file):
+    """Load configuration from a JSON file."""
+    with open(config_file, 'r') as f:
+        return json.load(f)
+
 def main():
-    directories = ["./docs/highthoughts/", "./docs/zettels/"]  # Add your directories here
-    output_file = "./docs/dex/index.md"
+    config = load_config('config.json')
+    directories = config['directories']
+    output_file = config['output_file']
 
     file_info = collect_file_info(directories)
     write_markdown_list(file_info, output_file)

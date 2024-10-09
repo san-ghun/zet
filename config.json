@@ -1,0 +1,4 @@
+{
+  "directories": ["./docs/highthoughts/", "./docs/zettels/"],
+  "output_file": "./docs/dex/index.md"
+}
