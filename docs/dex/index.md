@@ -1,5 +1,7 @@
 # Index
 
+- [How to get the `created datetime` ?](https://san-ghun.github.io/zet/zettels/1-a1)
+  - Created: Wed Oct  9 21:35:01 2024
 - [dexer](https://san-ghun.github.io/zet/zettels/1-a)
   - Created: Wed Oct  9 21:16:27 2024
 - [A markdown file list generator for Zettelkasten](https://san-ghun.github.io/zet/zettels/1)
