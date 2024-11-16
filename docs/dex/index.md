@@ -1,5 +1,9 @@
 # Index
 
+- [Expertise of a Data Analyst](https://san-ghun.github.io/zet/highthoughts/1-a)
+  - Created: Fri Nov 15 11:11:09 2024
+- [What is a Data Analyst and its Typical Workflow](https://san-ghun.github.io/zet/highthoughts/1)
+  - Created: Fri Nov 15 10:41:27 2024
 - [How to get the `created datetime` ?](https://san-ghun.github.io/zet/zettels/1-a1)
   - Created: Wed Oct  9 21:35:01 2024
 - [dexer](https://san-ghun.github.io/zet/zettels/1-a)
