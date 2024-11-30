@@ -21,3 +21,4 @@ note
 
 ---
 - created: {{date}} {{time}}
+- draft: true
