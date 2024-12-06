@@ -1,15 +1,9 @@
 # Index
 
-- [Expertise of a Data Analyst](https://san-ghun.github.io/zet/highthoughts/1-a)
+- [Expertise of a Data Analyst](https://san-ghun.github.io/zet/zettels/2-a)
   - Created: Fri Nov 15 11:11:09 2024
-- [What is a Data Analyst and its Typical Workflow](https://san-ghun.github.io/zet/highthoughts/1)
+- [What is a Data Analyst and its Typical Workflow](https://san-ghun.github.io/zet/zettels/2)
   - Created: Fri Nov 15 10:41:27 2024
-- [AI Chat for Elderly - Project Structure and System Design](https://san-ghun.github.io/zet/zettels/3_14-2)
-  - Created: Fri Oct 11 16:02:03 2024
-- [YouTube Comment Analyzer Extension with Cloudflare Workers](https://san-ghun.github.io/zet/zettels/3_14-1a)
-  - Created: Fri Oct 11 15:59:01 2024
-- [YouTube Comment Analyzer Extension](https://san-ghun.github.io/zet/zettels/3_14-1)
-  - Created: Fri Oct 11 15:48:25 2024
 - [How to get the `created datetime` ?](https://san-ghun.github.io/zet/zettels/1-a1)
   - Created: Wed Oct  9 21:35:01 2024
 - [dexer](https://san-ghun.github.io/zet/zettels/1-a)
