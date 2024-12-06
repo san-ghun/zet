@@ -4,9 +4,8 @@ created: ""
 modified: ""
 title:
 aliases: []
-tags: [init, idea, thought, knowledge, note]
+tags: [init, idea, thought, knowledge, note, project]
 links:
-  - "[[docs/highthoughts/README|README]]"
 ---
 # title
 

@@ -1,8 +1,15 @@
+---
+id: README
+created: 2024-09-26T21:32:00
+modified: 2024-12-06T09:13:46
+tags: 
+links: 
+---
 Hi, I am Sanghun. This is my personal **Zettelkasten** Tonne page. It contains things on quite any subjects I want to write about. The latest additions and changes are [indexed](https://san-ghun.github.io/zet/dex).
 
 And here are two categories of zettel for my Tonne.
-- [Zettels](https://san-ghun.github.io/zet/zettels) - for normal zettel
-- [High Thoughts](https://san-ghun.github.io/zet/highthoughts) - some high thoughts (, or maybe those high thoughts)
+- [High Thoughts](https://san-ghun.github.io/zet/highthoughts) - Inbox for draft and temp, sometimes with some high thoughts (, or maybe those high thoughts)
+- [Zettels](https://san-ghun.github.io/zet/zettels) -Notes for organized zettel
 
 A Zettelkasten is inherently unpolished and often contains information that may have been relevant, true, or written in a moment of passion at one point, but no longer reflects my current views or may be inaccurate. This is not a "blog," "website," or any form of publication. Failing to understand this when reading any Zettelkasten may lead to misunderstandings and potential harm. **Never** cite anything from this or any other Zettelkasten. Instead, use it to inspire your own research and draw your own conclusions.
 
