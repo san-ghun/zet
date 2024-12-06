@@ -1,10 +1,3 @@
----
-id: README
-created: 2024-09-26T21:32:00
-modified: 2024-12-06T09:13:46
-tags: 
-links: 
----
 Hi, I am Sanghun. This is my personal **Zettelkasten** Tonne page. It contains things on quite any subjects I want to write about. The latest additions and changes are [indexed](https://san-ghun.github.io/zet/dex).
 
 And here are two categories of zettel for my Tonne.
