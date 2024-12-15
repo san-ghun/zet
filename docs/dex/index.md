@@ -1,5 +1,9 @@
 # Index
 
+- [공각기동대의 인공지능과 현대의 인공지능](https://san-ghun.github.io/zet/zettels/202412081947)
+  - Created: Sun Dec 15 22:27:50 2024
+- [숫자 0 에 관하여](https://san-ghun.github.io/zet/zettels/202412081941)
+  - Created: Sun Dec 15 22:27:38 2024
 - [Expertise of a Data Analyst](https://san-ghun.github.io/zet/zettels/2-a)
   - Created: Fri Nov 15 11:11:09 2024
 - [What is a Data Analyst and its Typical Workflow](https://san-ghun.github.io/zet/zettels/2)
