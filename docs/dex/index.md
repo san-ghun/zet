@@ -1,5 +1,7 @@
 # Index
 
+- [제로음료가 영유아 및 6세 이하 아동에게 미치는 영향은?](https://san-ghun.github.io/zet/zettels/202412182113)
+  - Created: Sun Dec 22 18:16:10 2024
 - [공각기동대의 인공지능과 현대의 인공지능](https://san-ghun.github.io/zet/zettels/202412081947)
   - Created: Sun Dec 15 22:27:50 2024
 - [숫자 0 에 관하여](https://san-ghun.github.io/zet/zettels/202412081941)
